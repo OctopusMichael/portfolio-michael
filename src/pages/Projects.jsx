@@ -22,7 +22,7 @@ const Projects = () => {
         <div className="row">
           <div className="col-12">
             <h1>Proyectos</h1>
-
+            <hr />
             <p>
             <b>¡Bienvenido! </b><br/> Estos son mis proyectos más recientes como desarrollador Front-End. Me  gusta crear soluciones únicas y atractivas que cumplan con las necesidades de mis clientes y mejoren la experiencia del usuario. Estoy emocionado de compartir mis proyectos contigo y espero que puedas evaluar mi habilidad y conocimientos como Desarrollador Front-End. <br/> <b>¡Gracias por visitar mi portafolio!</b>
             </p>

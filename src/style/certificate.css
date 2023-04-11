@@ -1,7 +1,5 @@
 .section-certificate {
   padding: 0px 40px;
-  width: 100%;
-  height: 100%;
   margin-left: 0%;
   display: flex;
   justify-content: center;
@@ -13,7 +11,7 @@
   font-weight: 600;
   margin-top: 120px;
   color: rgb(0, 0, 0);
-  text-transform: uppercase;
+  
 }
 .section-certificate p {
   text-align: start;
@@ -25,21 +23,20 @@
 
 .certificado {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin-top: 20px;
-  height: 40vh;
-  padding: 0px 0px;
+  height: 35vh;
+  padding: 0px;
 
-  
 }
 
 .certificado img {
   height: 30vh;
  border: 1px solid black;
+ transition: all 0.2s ease;
 }
 .certificado img:hover{
-  height: 30vh;
- border: 1px solid black;
  transform: scale(1.1);
 }
 
@@ -47,53 +44,58 @@
 
 @media only screen and (min-width: 992px) {
   .section-certificate {
+    padding:  0px 50px;
     width: 80%;
-    height: auto;
     margin-left: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
+    text-align: center;
+
   }
   .section-certificate h1 {
     text-align: center;
     font-weight: 600;
-    margin-top: 100px;
-    color: rgb(0, 0, 0);
+    margin-top: 120px;
+    width: 100%;
+    
     
 
   }
   .section-certificate p{
-    text-align: center;
-    margin-top: 50px;
-    color: rgb(0, 0, 0);
     font-size: 20px;
-    
-
+    color :black;
+    padding: 0px 100px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
   }
 
-  .certificado {
+  
+
+ /*  .certificado {
   
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 50px;
     overflow: hidden;
     height: 50vh;
     padding: 0px 0px;
+    background-color: red;
 
     
-  }
+  } */
 
   .certificado img {
-    margin-top: 100px;
     height: 30vh;
+    width: auto;
+    margin: auto;
     
   }
   
   .certificado img:hover {
-    height: 30vh;
+    height: 40vh;
   
-    transform: scale(1.5);
+    transform: scale(1);
   }
   
 }
+

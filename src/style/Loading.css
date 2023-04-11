@@ -1,0 +1,21 @@
+.section-loading{
+  height: 100vh !important;
+  width: 100vw;
+  background-color: rgb(109, 109, 170);
+
+}
+
+
+@media only screen and (min-width: 992px) {
+  .section-loading{
+    height: 80%;
+    margin-left: 20%;
+    height: max-content;
+    background-color: rgb(109, 109, 170);
+    
+ 
+
+  }
+  
+
+}

@@ -9,9 +9,12 @@ import "../style/About.css"
 import "../style/home.css"
 import "../style/certificate.css"
 import "../style/contact.css"
+import "../style/notFound.css"
 import Projects from '../pages/Projects';
 import About from '../pages/About';
 import Certificate from '../pages/Certificate';
+import NotFound from '../pages/NotFound';
+import "../style/loading.css"
 
 
 
@@ -40,6 +43,10 @@ const Router = createHashRouter([
         {
           path: "/contacto",
           element: <Contact/>,
+        },
+        {
+          path : "*" ,
+          element :<NotFound/>,
         },
         
       ],

@@ -1,0 +1,8 @@
+.section-notfound {
+  width: 80%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}

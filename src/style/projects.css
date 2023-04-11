@@ -1,62 +1,61 @@
-:root{
-  --bg-blue-dark :  rgb(4, 12, 24);
-  --button-color :rgb(6, 209, 209);
+:root {
+  --bg-blue-dark: rgb(4, 12, 24);
+  --button-color: rgb(6, 209, 209);
 }
-
-
 
 .section-projects {
-  padding: 0px ;
+  padding: 0px;
   margin: 0;
+  padding: 0px 40px;
 }
-.section-projects h1{
+.section-projects h1 {
   text-align: start;
-  margin-top: 100px;
-  margin-left: 50px;
-  width: 75%;
-  height: 50px;
-  border-bottom: 1px solid rgba(129, 147, 155, 0.692);
+  margin-top: 120px;
   font-weight: 600;
-  
-  
+  padding: 0px ;
+ 
 }
 
-.section-projects p{
+.section-projects p {
   text-align: start;
-  padding: 20px 50px;
+  padding: 0px ;
 }
 
 /************* Section CARD ***********/
 
 .section-card {
-  width: 100vw;
+  width: 200px;
   height: auto;
-}
-.containerr {
-  width: 100vw;
-  position: relative;
-  display: flex;
-  justify-content: center;
- 
-}
-
-.containerr .newCard {
-  position: relative;
-  cursor: pointer;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   
 }
-
+/* .containerr {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+ */
+  /* .containerr .newCard {
+    position: relative;
+    cursor: pointer;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+ */
 .containerr .newCard .face {
   width: 300px;
   height: 200px;
   transition: 0.5s;
   opacity: 1;
-  
+
 }
 
 .containerr .newCard .face.face1 {
@@ -96,6 +95,9 @@
   box-sizing: border-box;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
   transform: translateY(-100px);
+  
+  
+
 }
 
 .containerr .newCard:hover .face.face2 {
@@ -122,16 +124,14 @@
   font-weight: 600;
   color: white;
   padding: 10px;
-  background-color:var(--button-color);
+  background-color: var(--button-color);
   text-align: center;
   border-radius: 30px;
   width: 100px;
-  
-  
 }
 
 .containerr .newCard .face.face2 .content a:hover {
- background-color: var(--bg-blue-dark);
+  background-color: var(--bg-blue-dark);
   color: #fdfdfd;
 }
 
@@ -326,34 +326,31 @@
 }
 
 @media only screen and (min-width: 992px) {
-
   .section-projects {
-    padding: 0;
+    padding:  0px 50px;
     width: 80%;
     margin-left: 20%;
-    
-    
-  
+    text-align: center;
+
+
+
   }
 
-  .section-projects h1{
+  .section-projects h1 {
     text-align: center;
     font-weight: 600;
     margin-top: 120px;
-    width: 80%;
-  height: 80px;
-  margin-left: 10%;
-  border-bottom: 1px solid rgba(129, 147, 155, 0.692);
-
+    width: 100%;
+    
+    
   }
-  .section-projects p{
+  .section-projects p {
     font-size: 20px;
     color :black;
-    text-align: center;
-    padding: 0px 150px;
+    padding: 0px 100px;
     width: 80%;
-    margin: auto;
-    
+    margin: 20px auto;
+    text-align: center;
   }
   .section-card {
     margin-top: 60px;
@@ -363,35 +360,31 @@
     justify-content: center;
     margin-left: 26%;
   }
-  .containerr {
+ /*  .containerr {
     width: 100vw;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-   
-  }
+  } */
 
   .containerr .newCard {
     position: relative;
     cursor: pointer;
-    width: 0;
+    width: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #2965f1;
+    margin: 0px auto;
   }
-  
 
   .containerr .newCard .face {
     width: 300px;
     height: 200px;
     transition: 0.5s;
     opacity: 1;
-    
   }
-
 }
 
 @media only screen and (min-width: 1220px) {

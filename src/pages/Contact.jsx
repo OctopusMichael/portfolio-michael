@@ -20,7 +20,7 @@ const Contact = () => {
 
         
         <div className={completed ? "col-12 contact-oculto" : "col-12 "}>
-          <h1 >Contact</h1>
+          <h1 >Contactame</h1>
           <hr />
           <p>
             Si te gusto mi trabajo o tienes alguna duda sobre algo en especifico, contactame. 
