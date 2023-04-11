@@ -7,6 +7,7 @@
   padding: 0px;
   margin: 0;
   padding: 0px 40px;
+
 }
 .section-projects h1 {
   text-align: start;
@@ -24,11 +25,11 @@
 /************* Section CARD ***********/
 
 .section-card {
-  width: 200px;
+  width: 100%;
   height: auto;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  
   
 }
 /* .containerr {
