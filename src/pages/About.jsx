@@ -20,7 +20,7 @@ const About = () => {
             <hr />
             <p>
               Ingeniero Mecanico apasionado por el diseño y la programación web. Me considero una persona proactiva,
-              creativa y siempre dispuesta a aprender nuevas habilidades, llevo aproximadament 8 meses estudiando de forma autodidacta todo lo que tiene que ver con el desarrollo Front-End, me gustaria medir mis conocimientos y poder conseguir mi primer empleo como desarrollador Junior especialmente utilizando REACT.js.
+              creativa y siempre dispuesta a aprender nuevas habilidades, llevo aproximadamente 1 año estudiando de forma autodidacta todo lo que tiene que ver con el desarrollo Front-End, me gustaria medir mis conocimientos y conseguir mi primer empleo como desarrollador Junior especialmente utilizando REACT.js.
             </p>
           </div>
           <div className="col-12 ">
