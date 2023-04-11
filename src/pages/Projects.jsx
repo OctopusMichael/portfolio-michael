@@ -14,7 +14,6 @@ import { FaBootstrap } from "react-icons/fa";
 
 const Projects = () => {
   const [data, setData] = useState(datos);
-  console.log(data[0]);
 
   return (
     <>
@@ -31,7 +30,7 @@ const Projects = () => {
             data.map((element) => {
               return (
                 <>
-                <div className="col-12 col-lg-4">
+                <div key={element.id} className="col-12 col-lg-4">
                   <div className="section-card">
                     <div className="containerr">
                       <div className="newCard">
