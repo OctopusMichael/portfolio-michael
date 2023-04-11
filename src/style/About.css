@@ -1,0 +1,56 @@
+
+
+.section-about-me{
+  margin-top: 70px;
+  padding: 0px 40px;
+}
+
+.section-about-me h1{
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.skills img{
+  height: 50px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.skills img:hover{
+  transform: scale(1.5)
+}
+
+
+
+@media only screen and (min-width: 992px) {
+  .section-about-me{
+    width: 80%;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 20%;
+    
+    
+  }
+  .section-about-me p{
+    font-size: 20px;
+    color :black;
+    text-align: center;
+    padding: 0px 100px;
+    width: 80%;
+    margin: 40px auto;
+    
+  }
+  
+
+  .skills img{
+    height: 120px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .skills img:hover{
+    transform: scale(1.5)
+  }
+  
+ 
+  
+
+}

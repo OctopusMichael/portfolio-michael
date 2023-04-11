@@ -1,0 +1,115 @@
+[
+  
+    {
+      "id": 1,
+      "name": "Advice generator", 
+      "img" : "advice",
+      "site" : "https://octopusmichael.github.io/advice-generator/",
+      "code" : "https://github.com/OctopusMichael/advice-generator"
+      
+      
+    },
+    {
+      "id": 2,
+      "name": "Time tracking",
+      "img" : "time-tracking",
+      "site" : "https://octopusmichael.github.io/time-tracking-dashboard/monthly",
+      "code" : "https://github.com/OctopusMichael/time-tracking-dashboard"
+    },
+    {
+      "id": 3,
+      "name": "Tip calculator ",
+      "img" : "tip-calculator",
+      "site" : "https://octopusmichael.github.io/tip-calculator-app-main/",
+      "code" : "https://github.com/OctopusMichael/time-tracking-dashboard"
+      
+    },
+    {
+      "id": 4,
+      "name": "Blogr",
+      "img" : "blogr",
+      "site" : "https://octopusmichael.github.io/blog-landing-page/",
+      "code" : "https://github.com/OctopusMichael/blog-landing-page"
+      
+    },
+    {
+      "id": 5,
+      "name": "Sunnyside agency",
+      "img" : "sunnyside",
+      "site" : "https://octopusmichael.github.io/sunnyside-agency/",
+      "code" : "https://github.com/OctopusMichael/sunnyside-agency"
+      
+    },
+    {
+      "id": 6,
+      "name": "Expense chart",
+      "img" : "expense_chart_component",
+      "site" : "https://octopusmichael.github.io/expenses-chart-component/",
+      "code" : "https://github.com/OctopusMichael/expenses-chart-component"
+    },
+    {
+      "id": 7,
+      "name": "Interactive card ",
+      "img" : "interactive_card_details",
+      "site" : "https://octopusmichael.github.io/interactive-card/",
+      "code" : "https://github.com/OctopusMichael/interactive-card"
+      
+    },
+    {
+      "id": 8,
+      "name": "Notification page",
+      "img" : "notification-page",
+      "site" : "https://octopusmichael.github.io/notifications-page/",
+      "code" : "https://github.com/OctopusMichael/notifications-page"
+      
+    },
+    {
+      "id": 9,
+      "name": "New homepage",
+      "img" : "new_homepage",
+      "site" : "https://octopusmichael.github.io/news-homepage-main/",
+      "code" : "https://github.com/OctopusMichael/news-homepage-main"
+      
+    },
+    {
+      "id": 10,
+      "name": "Landing page",
+      "img" : "simple_landinpage",
+      "site" : "https://octopusmichael.github.io/demo-challenge-15/",
+      "code" : "https://github.com/OctopusMichael/demo-challenge-15"
+      
+    },
+    {
+      "id": 11,
+      "name": "Intro section",
+      "img" : "intro_section_with_dropdown_navigation",
+      "site" : "https://octopusmichael.github.io/Intro-section-with-dropdown/",
+      "code" : "https://github.com/OctopusMichael/Intro-section-with-dropdown"
+      
+    },
+    {
+      "id": 12,
+      "name": "Page with form",
+      "img" : "page_with_form",
+      "site" : "https://octopusmichael.github.io/demo-challenge-16/",
+      "code" : "https://github.com/OctopusMichael/demo-challenge-16"
+      
+    },
+    {
+      "id": 13,
+      "name": "Four card",
+      "img" : "four_card_feature_section",
+      "site" : "https://octopusmichael.github.io/demo-challenge-14/",
+      "code" : "https://github.com/OctopusMichael/demo-challenge-14"
+      
+    },
+    {
+      "id": 14,
+      "name": "FAQ",
+      "img" : "fag",
+      "site" : "https://octopusmichael.github.io/demo-challenge-11/",
+      "code" : "https://github.com/OctopusMichael/demo-challenge-11"
+      
+    }
+  
+]

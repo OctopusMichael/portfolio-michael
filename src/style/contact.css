@@ -1,0 +1,211 @@
+:root{
+  --bg-blue-dark :  rgb(4, 12, 24);
+  --button-color :rgb(6, 209, 209);
+  
+}
+
+
+.section-contact{
+  width: 100%;
+  margin-left: 0%;
+  padding: 0px 40px;
+  height: 100vh;
+  margin-bottom: 50px;
+}
+.section-contact h1{
+  font-weight: 600;
+  text-align: start;
+  margin-top: 120px;
+
+}
+
+form{
+  margin-top: 20px;
+  background-color:  rgb(52, 52, 189);
+  height: auto;
+  border-radius: 10px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  box-shadow: 10px 10px 40px 2px black;
+}
+label{
+  color: white;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+input{
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+textarea{
+  margin-top: 10px;
+  height: 80px;
+  border-radius: 10px;
+  width: 100%;
+
+}
+
+form button{
+  background-color: rgb(6, 209, 209);
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  color:black;
+  border: none;
+}
+form button:hover{
+ background-color: black;
+ color: white;
+}
+
+form p{
+  color: red;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.section-contact p{
+  font-size: 20px;
+  color :black;
+  text-align: start;
+  padding: 0px 10px;
+  width: 100%;
+  margin: 0px;
+  
+  
+}
+
+.section-checked .btn{
+  background-color: rgb(6, 209, 209);
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  color:black;
+  border: none;
+}
+.section-checked .btn:hover{
+  background-color: black;
+  color: white;
+}
+
+.section-checked {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-checked img{
+  height: 100px;
+  width: 100px;
+}
+
+.contact-oculto{
+  visibility: hidden;
+}
+
+
+
+
+
+
+@media only screen and (min-width : 992px) {
+
+  form p{
+    color: red;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  
+  .section-contact{
+    width: 80%;
+    margin-left: 20%;
+    padding: 0px 40px;
+    height: 100vh;
+  }
+
+  .section-contact h1{
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  form{
+   
+    background-color: rgb(52, 52, 189) ;
+    height: auto;
+    border-radius: 10px;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-shadow: 10px 10px 40px 2px black;
+    width: 50%;
+    margin: 50px auto;
+  }
+  label{
+    color: white;
+    margin-top: 0px;
+  }
+  input{
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  textarea{
+    margin-top: 10px;
+    height: 80px;
+    border-radius: 10px;
+    width: 100%;
+  
+  }
+  
+  form button{
+    background-color: rgb(30, 224, 224);
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    color:black;
+  }
+  form button:hover{
+   background-color: black;
+   color: white;
+  }
+  
+  form p{
+    color: red;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .section-contact p{
+    font-size: 20px;
+    color :black;
+    text-align: center;
+    padding: 0px 150px;
+    width: 80%;
+    margin: auto;
+    
+  }
+
+  .section-checked .btn{
+    background-color: rgb(6, 209, 209);
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 50%;
+    height: 50px;
+    color:black;
+    border: none;
+  }
+  
+}
