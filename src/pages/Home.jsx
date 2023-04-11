@@ -11,7 +11,6 @@ const Home = () => {
       <ReactHowler
         src={bro}
         playing={true}
-        loop={true}
       />
 
           <h1>Michael Diaz</h1>
