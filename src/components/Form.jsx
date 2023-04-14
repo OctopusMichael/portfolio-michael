@@ -1,21 +1,31 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import {motion} from "framer-motion";
 
-const Form = ({setCompleted, completed}) => {
+const Form = ({ setCompleted, completed, setDatos }) => {
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
 
-
   const onSubmit = (data) => {
     console.log(data);
-    setCompleted(!completed)
+    setCompleted(!completed);
+    setDatos(data)
   };
+
+ 
   return (
     <>
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <motion.form 
+      onSubmit={handleSubmit(onSubmit)}
+      initial={{ opacity: 0 }}
+                  animate={{
+                    opacity: 1,
+                    transition: { duration: 1, ease: "easeInOut" },
+                  }}
+      >
         <label>Nombre</label>
         <input
           className="form-control"
@@ -64,7 +74,7 @@ const Form = ({setCompleted, completed}) => {
         )}
 
         <button> Enviar </button>
-      </form>
+      </motion.form>
     </>
   );
 };

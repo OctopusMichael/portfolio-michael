@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import datos from "../json/data.json";
-
 import {
   IoCreateOutline,
   IoGitBranch,
@@ -11,27 +10,66 @@ import {
   IoLogoReact,
 } from "react-icons/io5";
 import { FaBootstrap } from "react-icons/fa";
+import { motion } from "framer-motion";
+
 
 const Projects = () => {
   const [data, setData] = useState(datos);
 
   return (
     <>
-      <section className=" container-fluid section-projects">
+      <motion.section 
+      className=" container-fluid section-projects"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      >
         <div className="row">
           <div className="col-12">
-            <h1>Proyectos</h1>
-            <hr />
-            <p>
+            <motion.h1
+              initial={{ x: -100, opacity: 0 }}
+              animate={{
+                x: 0,
+                opacity: 1,
+                transition: { duration: 1, ease: "easeInOut" }
+              }}
+            > Proyectos</motion.h1>
+             <motion.hr
+              initial={{ x: -100, opacity: 0 }}
+              animate={{
+                x: 0,
+                opacity: 1,
+                transition: { duration: 1.5, ease: "easeInOut" },
+              }}
+            />
+            <motion.p
+            initial={{ x: -100, opacity: 0 }}
+            animate={{
+              x: 0,
+              opacity: 1,
+              transition: { duration: 1, ease: "easeInOut" }
+            }}
+            
+            >
             <b>¡Bienvenido! </b><br/> Estos son mis proyectos más recientes como desarrollador Front-End. Me gusta crear soluciones únicas y atractivas que cumplan con las necesidades de mis clientes y mejoren la experiencia del usuario. Estoy emocionado de compartir mis proyectos contigo y espero que puedas evaluar mis habilidades y conocimientos como Desarrollador Front-End. <br/> <b>¡Gracias por visitar mi portafolio!</b>
-            </p>
+            </motion.p>
           </div>
           {data &&
             data.map((element) => {
               return (
-                <>
-                <div key={element.id} className="col-12 col-lg-4">
-                  <div className="section-card">
+                
+                <motion.div 
+                key={element.id} className="col-12 col-lg-4"
+                initial={{opacity: 0 }}
+            animate={{
+              
+              opacity: 1,
+              transition: { duration: 1, ease: "easeInOut" }
+            }}
+                
+                >
+                
+                  <div  className="section-card">
                     <div className="containerr">
                       <div className="newCard">
                         <div className="face face1">
@@ -72,13 +110,13 @@ const Projects = () => {
                   </div>
 
                 </div>
-                </div>
+                </motion.div>
                
-                </>
+                
               );
             })}
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };

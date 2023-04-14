@@ -1,5 +1,4 @@
 import React from "react";
-import me from "../images/me.png";
 import html from "../images/tecnologies/html.svg";
 import css from "../images/tecnologies/css.svg";
 import js from "../images/tecnologies/js.svg";
@@ -8,57 +7,164 @@ import reac from "../images/tecnologies/react.svg";
 import vite from "../images/tecnologies/vite.svg";
 import git from "../images/tecnologies/git.svg";
 import github from "../images/tecnologies/github.svg";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
     <>
-      <section className=" container-fluid section-about-me">
+      <motion.section
+        className=" container-fluid section-about-me"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+      >
         <div className="row ">
           <div className="col-12 ">
-            <h1>Sobre Mi</h1>
-            <h3></h3>
-            <hr />
-            <p>
-              Ingeniero Mecanico apasionado por el diseño y la programación web. Me considero una persona proactiva,
-              creativa y siempre dispuesta a aprender nuevas habilidades, llevo aproximadamente 1 año estudiando de forma autodidacta todo lo que tiene que ver con el desarrollo Front-End, me gustaria medir mis conocimientos y conseguir mi primer empleo como desarrollador Junior especialmente utilizando REACT.js.
-            </p>
+            <motion.h1
+              initial={{ x: -100, opacity: 0 }}
+              animate={{
+                x: 0,
+                opacity: 1,
+                transition: { duration: 1, ease: "easeInOut" },
+              }}
+            >
+              Sobre Mi
+            </motion.h1>
+            <motion.hr
+              initial={{ x: -100, opacity: 0 }}
+              animate={{
+                x: 0,
+                opacity: 1,
+                transition: { duration: 1, ease: "easeInOut" },
+              }}
+            />
+            <motion.p
+              initial={{ x: -100, opacity: 0 }}
+              animate={{
+                x: 0,
+                opacity: 1,
+                transition: { duration: 1, ease: "easeInOut" },
+              }}
+            >
+              Ingeniero Mecanico apasionado por el diseño y la programación web.
+              Me considero una persona proactiva, creativa y siempre dispuesta a
+              aprender nuevas habilidades, llevo aproximadamente 1 año
+              estudiando de forma autodidacta todo lo que tiene que ver con el
+              desarrollo Front-End, me gustaria medir mis conocimientos y
+              conseguir mi primer empleo como desarrollador Junior especialmente
+              utilizando REACT.js.
+            </motion.p>
           </div>
           <div className="col-12 ">
             <div className="skills">
-              <h1>Tecnologias</h1>
-              <hr />
+              <motion.h1
+                initial={{ x: -100, opacity: 0 }}
+                animate={{
+                  x : 0,
+                  opacity: 1,
+                  transition: { duration: 1, ease: "easeInOut" },
+                }}
+              >
+                Tecnologias
+              </motion.h1>
+              <motion.hr
+                initial={{ x : -100, opacity: 0 }}
+                animate={{
+                  x: 0,
+                  opacity: 1,
+                  transition: { duration: 1, ease: "easeInOut" },
+                }}
+              />
 
               <div className="row">
-                <div className="col-4">
+                <motion.div
+                  className="col-4"
+                  initial={{ opacity: 0 }}
+                  animate={{
+                    opacity: 1,
+                    transition: { duration: 1.2, ease: "easeInOut" },
+                  }}
+                >
                   <img src={html} alt="html" />
-                </div>
-                <div className="col-4">
-                  {" "}
+                </motion.div>
+                <motion.div
+                  className="col-4"
+                  initial={{ opacity: 0 }}
+                  animate={{
+                    opacity: 1,
+                    transition: { duration: 1.4, ease: "easeInOut" },
+                  }}
+                >
+               
                   <img src={css} alt="css" />
-                </div>
-                <div className="col-4">
+                </motion.div>
+                <motion.div
+                  className="col-4"
+                  initial={{ opacity: 0 }}
+                  animate={{
+                    opacity: 1,
+                    transition: { duration: 1.6, ease: "easeInOut" },
+                  }}
+                >
                   <img src={js} alt="js" />
-                </div>
-                <div className="col-4">
+                </motion.div>
+                <motion.div
+                  className="col-4"
+                  initial={{  opacity: 0 }}
+                  animate={{
+                    
+                    opacity: 1,
+                    transition: { duration: 1.8, ease: "easeInOut" },
+                  }}
+                >
                   <img src={bs} alt="bs" />
-                </div>
-                <div className="col-4">
+                </motion.div>
+                <motion.div
+                  className="col-4"
+                  initial={{ opacity: 0 }}
+                  animate={{
+                    
+                    opacity: 1,
+                    transition: { duration: 2, ease: "easeInOut" },
+                  }}
+                >
                   <img src={reac} alt="react" />
-                </div>
-                <div className="col-4">
+                </motion.div>
+                <motion.div
+                  className="col-4"
+                  initial={{ opacity: 0 }}
+                  animate={{
+                    opacity: 1,
+                    transition: { duration: 2.2, ease: "easeInOut" },
+                  }}
+                >
                   <img src={vite} alt="vite" />
-                </div>
-                <div className="col-4">
+                </motion.div>
+                <motion.div
+                  className="col-4"
+                  initial={{ opacity: 0 }}
+                  animate={{
+                    opacity: 1,
+                    transition: { duration: 2.4, ease: "easeInOut" },
+                  }}
+                >
                   <img src={git} alt="git" />
-                </div>
-                <div className="col-4">
+                </motion.div>
+                <motion.div
+                  className="col-4"
+                  initial={{ opacity: 0 }}
+                  animate={{
+                    opacity: 1,
+                    transition: { duration: 2.6, ease: "easeInOut" },
+                  }}
+                >
                   <img src={github} alt="github" />
-                </div>
+                </motion.div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };

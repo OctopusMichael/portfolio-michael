@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Outlet } from "react-router";
 import Navbar from "../components/Navbar";
-import { IoClipboard, IoClose, IoReorderThree } from "react-icons/io5";
+import { IoClose, IoReorderThree } from "react-icons/io5";
 
 const Layout = () => {
   const [buttonLayout, setButtonLayout] = useState(false);
@@ -25,9 +25,11 @@ const Layout = () => {
               </button>
             )}
             <Navbar buttonLayout={buttonLayout} handleButton={handleButton}  />
+          
             <Outlet />
+          
           </div>
-          <div className="col-6"></div>
+              
         </div>
       </div>
     </>
