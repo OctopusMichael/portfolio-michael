@@ -5,11 +5,9 @@ import { motion } from "framer-motion"
 const Loading = () => {
   return (
     <>
-      <motion.section
+      <section
       className="container-fluid section-loading"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
+      
       >
       
           <motion.div className="box"
@@ -30,7 +28,7 @@ const Loading = () => {
               
             </motion.div> 
 
-      </motion.section>
+      </section>
 
 
    
