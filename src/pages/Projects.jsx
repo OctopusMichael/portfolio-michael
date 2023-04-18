@@ -52,14 +52,12 @@ const Projects = () => {
                 transition: { duration: 1, ease: "easeInOut" },
               }}
             >
-              <b>¡Bienvenido! </b>
-              <br /> Estos son mis proyectos más recientes como desarrollador
-              Front-End. Me gusta crear soluciones únicas y atractivas que
+             Estos son mis proyectos más recientes, me gusta crear soluciones únicas y atractivas que
               cumplan con las necesidades de mis clientes y mejoren la
               experiencia del usuario. Estoy emocionado de compartir mis
               proyectos contigo y espero que puedas evaluar mis habilidades y
-              conocimientos como Desarrollador Front-End. <br />{" "}
-              <b>¡Gracias por visitar mi portafolio!</b>
+              conocimientos como desarrollador Front-End. {" "}
+
             </motion.p>
           </div>
           {data &&

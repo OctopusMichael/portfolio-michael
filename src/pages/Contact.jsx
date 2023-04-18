@@ -24,7 +24,7 @@ const Contact = () => {
             opacity: 1,
             transition: { duration: 1, ease: "easeInOut" },
           }}
-          >Contactame</motion.h1>
+          >Contáctame</motion.h1>
           <motion.hr
               initial={{ x: -100, opacity: 0 }}
               animate={{

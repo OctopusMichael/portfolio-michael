@@ -48,7 +48,7 @@ const About = () => {
                 transition: { duration: 1, ease: "easeInOut" },
               }}
             >
-              Ingeniero Mecanico apasionado por el diseño y la programación web.
+              Ingeniero Mecanico interesado en el diseño y la programación web.
               Me considero una persona proactiva, creativa y siempre dispuesto a
               aprender nuevas habilidades. Llevo aproximadamente 1 año
               estudiando de forma autodidacta todo lo relacionado con el
