@@ -12,17 +12,16 @@ import {
 import { FaBootstrap } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-
 const Projects = () => {
   const [data, setData] = useState(datos);
 
   return (
     <>
-      <motion.section 
-      className=" container-fluid section-projects"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
+      <motion.section
+        className=" container-fluid section-projects"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
       >
         <div className="row">
           <div className="col-12">
@@ -31,10 +30,13 @@ const Projects = () => {
               animate={{
                 x: 0,
                 opacity: 1,
-                transition: { duration: 1, ease: "easeInOut" }
+                transition: { duration: 1, ease: "easeInOut" },
               }}
-            > Proyectos</motion.h1>
-             <motion.hr
+            >
+              {" "}
+              Proyectos
+            </motion.h1>
+            <motion.hr
               initial={{ x: -100, opacity: 0 }}
               animate={{
                 x: 0,
@@ -43,33 +45,36 @@ const Projects = () => {
               }}
             />
             <motion.p
-            initial={{ x: -100, opacity: 0 }}
-            animate={{
-              x: 0,
-              opacity: 1,
-              transition: { duration: 1, ease: "easeInOut" }
-            }}
-            
+              initial={{ x: -100, opacity: 0 }}
+              animate={{
+                x: 0,
+                opacity: 1,
+                transition: { duration: 1, ease: "easeInOut" },
+              }}
             >
-            <b>¡Bienvenido! </b><br/> Estos son mis proyectos más recientes como desarrollador Front-End. Me gusta crear soluciones únicas y atractivas que cumplan con las necesidades de mis clientes y mejoren la experiencia del usuario. Estoy emocionado de compartir mis proyectos contigo y espero que puedas evaluar mis habilidades y conocimientos como Desarrollador Front-End. <br/> <b>¡Gracias por visitar mi portafolio!</b>
+              <b>¡Bienvenido! </b>
+              <br /> Estos son mis proyectos más recientes como desarrollador
+              Front-End. Me gusta crear soluciones únicas y atractivas que
+              cumplan con las necesidades de mis clientes y mejoren la
+              experiencia del usuario. Estoy emocionado de compartir mis
+              proyectos contigo y espero que puedas evaluar mis habilidades y
+              conocimientos como Desarrollador Front-End. <br />{" "}
+              <b>¡Gracias por visitar mi portafolio!</b>
             </motion.p>
           </div>
           {data &&
             data.map((element) => {
               return (
-                
-                <motion.div 
-                key={element.id} className="col-12 col-lg-4"
-                initial={{opacity: 0 }}
-            animate={{
-              
-              opacity: 1,
-              transition: { duration: 1, ease: "easeInOut" }
-            }}
-                
+                <motion.div
+                  key={element.id}
+                  className="col-12 col-lg-4"
+                  initial={{ opacity: 0 }}
+                  animate={{
+                    opacity: 1,
+                    transition: { duration: 1, ease: "easeInOut" },
+                  }}
                 >
-                
-                  <div  className="section-card">
+                  <div className="section-card">
                     <div className="containerr">
                       <div className="newCard">
                         <div className="face face1">
@@ -106,13 +111,9 @@ const Projects = () => {
                           </div>
                         </div>
                       </div>
-                    
+                    </div>
                   </div>
-
-                </div>
                 </motion.div>
-               
-                
               );
             })}
         </div>

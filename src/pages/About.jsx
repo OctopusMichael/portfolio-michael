@@ -9,9 +9,11 @@ import git from "../images/tecnologies/git.svg";
 import github from "../images/tecnologies/github.svg";
 import { motion } from "framer-motion";
 
+
 const About = () => {
   return (
     <>
+    
       <motion.section
         className=" container-fluid section-about-me"
         initial={{ opacity: 0 }}
@@ -28,7 +30,7 @@ const About = () => {
                 transition: { duration: 1, ease: "easeInOut" },
               }}
             >
-              Sobre Mi
+              Sobre Mí
             </motion.h1>
             <motion.hr
               initial={{ x: -100, opacity: 0 }}
@@ -47,10 +49,10 @@ const About = () => {
               }}
             >
               Ingeniero Mecanico apasionado por el diseño y la programación web.
-              Me considero una persona proactiva, creativa y siempre dispuesta a
-              aprender nuevas habilidades, llevo aproximadamente 1 año
-              estudiando de forma autodidacta todo lo que tiene que ver con el
-              desarrollo Front-End, me gustaria medir mis conocimientos y
+              Me considero una persona proactiva, creativa y siempre dispuesto a
+              aprender nuevas habilidades. Llevo aproximadamente 1 año
+              estudiando de forma autodidacta todo lo relacionado con el
+              desarrollo Front-End. Me gustaria medir mis conocimientos y
               conseguir mi primer empleo como desarrollador Junior especialmente
               utilizando REACT.js.
             </motion.p>
@@ -65,7 +67,7 @@ const About = () => {
                   transition: { duration: 1, ease: "easeInOut" },
                 }}
               >
-                Tecnologias
+                Tecnologías
               </motion.h1>
               <motion.hr
                 initial={{ x : -100, opacity: 0 }}

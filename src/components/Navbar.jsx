@@ -31,10 +31,10 @@ const Navbar = ({buttonLayout, handleButton}) => {
           </div>
         
         <div className="redes-list">
-          <a href="#"><IoLogoLinkedin/></a>
-          <a href="#"><IoLogoGithub/></a>
+          <a href="https://www.linkedin.com/in/michael-diaz-1944bb14b/"  target="_blank"><IoLogoLinkedin/></a>
+          <a href="https://github.com/OctopusMichael"><IoLogoGithub/></a>
           <a href="#"><IoLogoDiscord/></a>
-          <a href="#"><IoLogoTwitter/></a>
+          <a href="https://twitter.com/OctopusQuiet" target="_blank"><IoLogoTwitter/></a>
         </div>
 
         <div className="menu-list">
@@ -46,7 +46,7 @@ const Navbar = ({buttonLayout, handleButton}) => {
           <NavLink></NavLink>
         </div>
         <div className="footer">
-          <p>© 2023 <a href="#">Michael Diaz</a>. Todos los derechos reservados.</p>
+          <p>© 2023 <a href="https://www.linkedin.com/in/michael-diaz-1944bb14b"  target="_blank">Michael Diaz</a>. Todos los derechos reservados.</p>
 
         </div>
       </nav>

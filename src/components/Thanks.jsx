@@ -22,7 +22,7 @@ const Thanks = ({datos}) => {
         <h1 className='mt-4 text-center'>Enviado</h1>
         <h3>{datos.name} {datos.lastName}</h3>
         <h5 className='text-center'>Te contactare lo mas pronto posible.</h5>
-        <NavLink to={"/"} className='btn'> continue </NavLink>
+        <NavLink to={"/"} className='btn '> continue </NavLink>
       
       </motion.div>
     </>

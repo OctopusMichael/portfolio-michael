@@ -10,12 +10,12 @@ const Form = ({ setCompleted, completed, setDatos }) => {
   } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data);
+    
     setCompleted(!completed);
     setDatos(data)
   };
 
- 
+  
   return (
     <>
       <motion.form 
